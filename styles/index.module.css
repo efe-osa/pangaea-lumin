@@ -1,0 +1,31 @@
+@keyframes logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.appContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 92px;
+    padding-right: 67px;
+  }
+}
