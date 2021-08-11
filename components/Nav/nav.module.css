@@ -4,11 +4,10 @@
 }
 
 .nav {
+  composes: spaceBetween from '/styles/index.module.css';
   padding: 0 1.72rem;
   height: 64px;
   box-shadow: 0 2px 3px -3px grey;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .tools{

@@ -29,3 +29,8 @@
     padding-right: 67px;
   }
 }
+
+.spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
