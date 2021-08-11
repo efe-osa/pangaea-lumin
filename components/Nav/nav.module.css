@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  padding: 0 1.72rem;
+  height: 64px;
+  box-shadow: 0 2px 3px -3px grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tools{
+  display: flex;
+  align-items: center;
+}
+.account{
+  font-size: 1rem;
+  padding: 0 1.375rem;
+}
+
+.cartBtn {
+  appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  color: var(--color-green);
+}
+
+.cartCounter {
+  color: var(--color-primary);
+  padding: 1px 4px;
+  position: absolute;
+  right: -10px;
+  top: 0px;
+}
+
+
