@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  grid-template-columns: 65% 33%;
+  gap: 12px;
+  padding: 15px;
+  background-color: var(--color-secondary);
+  min-height: 150px;
+  margin-bottom: 20px;
+}
+.itemTitle {
+  font-size: .75rem;
+  line-height: 1.5;
+  font-weight: 600;
+  display: inline-block;
+}
+.itemPrice {
+  font-size: 1.25rem;
+  letter-spacing: 0.03px;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+.cartItem {
+  position: relative;
+}
+.quantity {
+  composes: spaceBetween from 'styles/index.module.css';
+  align-items: center;
+}
+.cartTools {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  column-gap: 5px;
+  border: 0.5px solid var(--color-gray);
+  padding: 7px 0;
+  width: 76px;
+  margin-top: 10px;
+}
+.btn {
+  border: none;
+  color: var(--color-gray-darkest);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.clearBtn{
+  composes: btn;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  right:0;
+  z-index: 1;
+}
