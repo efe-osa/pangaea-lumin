@@ -22,7 +22,8 @@
   "rules": {
     "@typescript-eslint/await-thenable": "off",
     "@typescript-eslint/no-unused-expressions":"off",
-    "@typescript-eslint/no-floating-promises":"off"
+    "@typescript-eslint/no-floating-promises":"off",
+    "no-console":"warn"
   },
   "settings": {
     "import/parsers": {
